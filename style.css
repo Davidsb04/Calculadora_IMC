@@ -1,0 +1,60 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #5f6368;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+input{
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin: 4px;
+    width: 80%;
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 500px;
+    background: rgb(105, 105, 105);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+}
+#button{
+    border-radius: 8px;
+    margin-top: 2rem;
+    border: none;
+    width: 95%;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 20px;
+}
+
+#button:hover{
+    background-color: #5f6368;
+    color: white;
+}
+.res{
+    margin: 1rem;
+    font-size: 20px;
+}
+.box p {
+    font-size: 20px;
+    text-align: start;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.form{
+    color: #a5eaff;
+}
