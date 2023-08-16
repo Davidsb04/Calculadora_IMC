@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Caluculadora de IMC</title>
 </head>
 <body>
     <main>
         <div class="container">
-            <h1>Calculadora de Índice de Massa Corporal (IMC)</h1> <br><br>
+            <h1 class="titulo"><b>Calculadora de Índice de Massa Corporal (IMC)</b></h1><br><br>
             <p>
-                O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros). <br><br><br>
-    
-                <b class="form">IMC = Peso ÷ (Altura × Altura)</b> <br><br><br>
-                
-                Exemplo de como calcular o IMC: <br><br><br>
-                
-                <b class="form">IMC = 80 kg ÷ (1.80 m × 1.80 m) = 24.69 kg/m2 (Peso ideal)</b> <br><br><br>
-                
-                Utilize a calculadora abaixo para fazer o seu cálculo: <br><br>
+                O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros). <br><br>
             </p>
+    
+            <p class="form"><b>IMC = Peso ÷ (Altura × Altura)</b></p><br>
+                
+            <p>Exemplo de como calcular o IMC:</p><br>
+                
+            <p class="form"><b>IMC = 80 kg ÷ (1.80 m × 1.80 m) = 24.69 kg/m2 (Peso ideal)</b></p><br>
+                
+            <p>Utilize a calculadora abaixo para fazer o seu cálculo:</p><br>
+
             <div class="row">
                 <div class="box">
                     <div class="altura">
@@ -36,8 +38,13 @@
                         <input type="text" id="peso" name="peso" placeholder="68.35" maxlength="6" oninput="formatWeightField(this)">
                     </div>
                     <input type="button" value="Calcular" id="button" onclick="calcular()">
-                    <div class="res">
-                    
+                    <div class="flex-container">
+                        <div class="res">
+                        
+                        </div>
+                        <div class="classf" id="classfElement">
+        
+                        </div>
                     </div>
                 </div>
             </div>
