@@ -8,3 +8,4 @@ Composto por uma interfáce simple. Contém uma breve explicação sobre o IMC e
 
 ![image](https://github.com/Davidsb04/Calculadora_IMC/assets/121972361/408037a4-a1f8-4215-b7d7-16e140b2da41)
 
+Visualize o site: https://davidsb04.github.io/Calculadora_IMC/
